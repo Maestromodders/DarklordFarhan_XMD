@@ -1,4 +1,4 @@
-deploymentname: atassa-md
+deploymentname: darklord-xmd
 
 services:
   - name: web
@@ -66,5 +66,5 @@ services:
 # 3. Set SESSION_ID to your Gifted~ session ID.
 # 4. Deploy via Koyeb dashboard → "Create App" → "GitHub" → pick repo,
 #    or use the Koyeb CLI:
-#      koyeb app init atassa-md --config koyeb.yaml
+#      koyeb app init darklord-xmd --config koyeb.yaml
 # ─────────────────────────────────────────────────────────────

@@ -66,7 +66,7 @@ gmd(
             const zip = new AdmZip(zipPath);
             zip.extractAllTo(extractPath, true);
 
-            const sourcePath = path.join(extractPath, "atassa-main"); // Update this with your bot repo branch name if you're cloning
+            const sourcePath = path.join(extractPath, "DarklordFarhan_XMD-main");
             const destinationPath = path.join(__dirname, "..");
 
             const excludeList = [

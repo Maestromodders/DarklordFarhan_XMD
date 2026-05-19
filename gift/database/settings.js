@@ -64,7 +64,7 @@ const DEFAULT_SETTINGS = {
     NEWSLETTER_JID: "120363403054496228@newsletter",
     GC_JID: "GFCyKZmDSh31tGrvjOMj6A",
     NEWSLETTER_URL: "https://whatsapp.com/channel/0029Vb6lNd511ulWbxu1cT3A",
-    BOT_REPO: "mauricegift/atassa",
+    BOT_REPO: "DarkLordFarhan/DarklordFarhan_XMD",
     PACK_NAME: "𓅓 𝐃𝐀𝐑𝐊 𝐋𝐎𝐑𝐃𓅣._XMD",
     PACK_AUTHOR: "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂𝐇",
     SUDO_NUMBERS: "",
