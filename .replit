@@ -1,4 +1,4 @@
-modules = ["nodejs-20", "web", "python-3.11"]
+modules = ["nodejs-20", "web", "nix", "python-3.11"]
 [agent]
 expertMode = true
 stack = "BEST_EFFORT_FALLBACK"
@@ -37,3 +37,11 @@ externalPort = 80
 [deployment]
 deploymentTarget = "vm"
 run = ["node", "index.js"]
+
+[userenv]
+
+[userenv.shared]
+MODE = "public"
+TIME_ZONE = "Africa/Nairobi"
+AUTO_LIKE_STATUS = "true"
+AUTO_READ_STATUS = "true"
