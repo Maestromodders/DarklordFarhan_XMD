@@ -203,9 +203,7 @@ async function startGifted() {
             onOpen: async (Gifted) => {
                 const s = await getAllSettings();
                 await safeNewsletterFollow(Gifted, s.NEWSLETTER_JID);
-                await safeNewsletterFollow(Gifted, "120363406649804510@newsletter");
                 await safeGroupAcceptInvite(Gifted, s.GC_JID);
-                await safeGroupAcceptInvite(Gifted, "GFCyKZmDSh31tGrvjOMj6A");
                 await initializeLidStore(Gifted);
 
                 setTimeout(async () => {
