@@ -4,17 +4,7 @@ const { evt, commands } = require('../gmdCmds');
 const { standardizeJid } = require('./serializer');
 const { getGroupMetadata, getLidMapping } = require('./groupCache');
 
-const _compileAsJs = function (module, filename) {
-    const content = fs.readFileSync(filename, 'utf8');
-    module._compile(content, filename);
-};
-require.extensions['.gmd']     = _compileAsJs;
-require.extensions['.kasongo'] = _compileAsJs;
-require.extensions['.amd']     = _compileAsJs;
-require.extensions['.atassa']  = _compileAsJs;
-require.extensions['.ke']      = _compileAsJs;
-
-const _pluginExts = new Set(['.js', '.gmd', '.kasongo', '.amd', '.atassa', '.ke']);
+const _pluginExts = new Set(['.js']);
 
 const loadPlugins = (pluginsPath) => {
     try {

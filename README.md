@@ -1,51 +1,17 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <h1 align="center"> 𓅓 𝐃𝐀𝐑𝐊 𝐋𝐎𝐑𝐃𓅣._XMD 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 𝟓.𝟎.𝟎 </h1>
 
-- Bot is Safe for Heroku so don't ask more questions
-
-
-<details>
-<summary>NOTICE!!! (TAP TO READ)</summary>
-
-- For Vps/Panel Deployment You must download the zip from panel sections or from below link else your youtube downloaders wont work on panel.
-
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20ZIP-yellow" alt="Panel Zip File" width="150"></a>
-  
-</details>
-
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-  <p align="center">
-<a href="https://github.com/DarkLordFarhan"><img title="GITHUB" src="https://img.shields.io/badge/GITHUB-DARK LORD XMD-red.svg?style=for-the-badge&logo=github"></a>
-<p/>
-<p align="center">
-<a href="https://github.com/DarkLordFarhan?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/DarkLordFarhan?label=Followers&style=social"></a>
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/DarkLordFarhan/DarklordFarhan_XMD?&style=social"></a>
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/DarkLordFarhan/DarklordFarhan_XMD?style=social"></a>
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/DarkLordFarhan/DarklordFarhan_XMD?label=Watching&style=social"></a>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-  
 ## 𝟏. 𝐒𝐄𝐓 𝐔𝐏:
-
-**👇FORK REPO(A MUST)**
-<details>
-<summary>𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘</summary>
-  
-- This is essential for you to obtain your own safe forked deployable repo especially heroku users.
-
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK DARK LORD XMD" width="150"></a>
-</details>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ### 𝟐. 𝐋𝐈𝐍𝐊 𝐖𝐈𝐓𝐇 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏
 
 <details>
 <summary>GET YOUR SESSION_ID</summary>
-<a href="https://session.giftedtech.co.ke"><img src="https://img.shields.io/badge/CLICK%20HERE-green" alt="Pairing Code" width="150"></a>
 
-- Session ID must start with **Gifted~**
+- Scan the QR code or use a pairing code to get your Session ID.
+- Set `SESSION_ID` as an environment variable / secret before starting the bot.
 </details>
 
 ### 𝟑. 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓 𝐒𝐄𝐂𝐓𝐈𝐎𝐍:
@@ -55,8 +21,6 @@
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="https://signup.heroku.com/login"><img src="https://img.shields.io/badge/HEROKU%20SIGNUP-white" alt="Heroku Signup" width="150"></a>
-  
-<a href="https://dashboard.heroku.com/new?template=https://github.com/DarkLordFarhan/DarklordFarhan_XMD"><img src="https://img.shields.io/badge/DEPLOY%20NOW-red" alt="Deploy on Heroku" width="150"></a>
 
 - PostgreSQL is **auto-provisioned** via the `heroku-postgresql:essential-0` addon — no manual setup needed.
 - All environment variables are pre-filled from `app.json`. Just add your `SESSION_ID`.
@@ -64,24 +28,10 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(B) HOST ON GIFTED HOST**
-<details>
-<summary>TAP TO OPEN</summary>
-<a href="https://panel.giftedtech.co.ke"><img src="https://img.shields.io/badge/GIFTEDHOST%20SIGNUP-green" alt="Gifted Host" width="150"></a>
-
-<a href="https://youtu.be/YG3-oV2cVj8?feature=shared"><img src="https://img.shields.io/badge/WATCH%20TUTORIAL-red" alt="Gifted Panel Tutorial" width="150"></a>
-</details>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-**(C) RENDER DEPLOYMENT**
+**(B) RENDER DEPLOYMENT**
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="https://dashboard.render.com/signup"><img src="https://img.shields.io/badge/RENDER%20SIGNUP-green" alt="Render Signup" width="150"></a>
-
-<a href="https://render.com/deploy"><img src="https://img.shields.io/badge/DEPLOY%20NOW-blue" alt="Deploy on Render" width="150"></a>
-
-<a href="https://youtu.be/TVu8CQPPliM?feature=shared"><img src="https://img.shields.io/badge/WATCH%20TUTORIAL-red" alt="Render Tutorial" width="150"></a>
 
 **Steps:**
 1. Fork this repo, then go to [render.com](https://render.com) and sign in.
@@ -95,12 +45,10 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(D) RAILWAY DEPLOYMENT**
+**(C) RAILWAY DEPLOYMENT**
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="https://railway.app/login"><img src="https://img.shields.io/badge/RAILWAY%20SIGNUP-black" alt="Railway Signup" width="150"></a>
-
-<a href="https://railway.app/new/template"><img src="https://img.shields.io/badge/DEPLOY%20NOW-purple" alt="Deploy on Railway" width="150"></a>
 
 **Steps:**
 1. Fork this repo and go to [railway.app](https://railway.app).
@@ -108,7 +56,7 @@
 3. In your project dashboard, click **+ New → Database → PostgreSQL**.
 4. Railway auto-links `DATABASE_URL` to your service — no copy-paste needed.
 5. Go to your service **Variables** tab and add:
-   - `SESSION_ID` → your `Gifted~` session ID
+   - `SESSION_ID` → your session ID
    - `MODE` → `public`
    - `TIME_ZONE` → e.g. `Africa/Nairobi`
 6. Railway detects the `Dockerfile` and `railway.toml` automatically and deploys.
@@ -116,16 +64,14 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(E) KOYEB DEPLOYMENT**
+**(D) KOYEB DEPLOYMENT**
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="https://app.koyeb.com/auth/signup"><img src="https://img.shields.io/badge/KOYEB%20SIGNUP-purple" alt="Koyeb Signup" width="150"></a>
 
-<a href="https://app.koyeb.com/services/deploy/?type=git&repository=github.com%2FDarkLordFarhan%2FDarklordFarhan_XMD&branch=main&name=darklord-xmd&builder=dockerfile&env%5BSESSION_ID%5D=your%20sessionid%20here"><img src="https://img.shields.io/badge/DEPLOY%20NOW-black" alt="Deploy on Koyeb" width="150"></a>
-
 **Steps:**
 1. Fork this repo and sign in to [koyeb.com](https://koyeb.com).
-2. Click **Deploy Now** above (or Create App → GitHub → select your fork).
+2. Create App → GitHub → select your fork.
 3. Koyeb has no built-in database — get a **free PostgreSQL** from one of:
    - [neon.tech](https://neon.tech) ← recommended
    - [supabase.com](https://supabase.com)
@@ -138,11 +84,9 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(F) BOT HOSTING PANEL🔥(DISCORD) DEPLOYMENT**
+**(E) BOT HOSTING PANEL🔥(DISCORD) DEPLOYMENT**
 <details>
 <summary>TAP TO OPEN</summary>
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-yellow" alt="Bot Hosting Files" width="150"></a>
-
 <a href="https://bot-hosting.net/?aff=1259151615210819614"><img src="https://img.shields.io/badge/SIGNUP-gold" alt="Bot Hosting Signup" width="150"></a>
 
 <a href="https://bot-hosting.net/?aff=1259151615210819614"><img src="https://img.shields.io/badge/DEPLOY%20NOW-orange" alt="Bot Hosting Deploy" width="150"></a>
@@ -152,7 +96,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(G) PRINCE TECH HOST**
+**(F) PRINCE TECH HOST**
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="http://host.princetechn.com/deploy-bot"><img src="https://img.shields.io/badge/PRINCE%20HOST%20SIGNUP-blue" alt="Prince Tech Host Signup" width="150"></a>
@@ -160,14 +104,11 @@
 <a href="http://host.princetechn.com/deploy-bot"><img src="https://img.shields.io/badge/DEPLOY%20NOW-orange" alt="Deploy on Prince Host" width="150"></a>
 
 **Steps:**
-1. Download the ZIP below and extract it.
-
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20ZIP-yellow" alt="Download ZIP" width="150"></a>
-
+1. Download the ZIP of this repo and extract it.
 2. Go to [host.princetechn.com/deploy-bot](http://host.princetechn.com/deploy-bot) and sign up / log in.
 3. Create a new bot instance and upload the extracted ZIP.
 4. In the environment/startup settings, set:
-   - `SESSION_ID` → your `Gifted~` session ID
+   - `SESSION_ID` → your session ID
    - `MODE` → `public`
    - `TIME_ZONE` → e.g. `Africa/Nairobi`
 5. Start the bot. SQLite is used automatically if no `DATABASE_URL` is set.
@@ -175,7 +116,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(H) BWM XMD HOST**
+**(G) BWM XMD HOST**
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="http://main.bwmxmd.co.ke/deployment"><img src="https://img.shields.io/badge/BWM%20HOST%20SIGNUP-teal" alt="BWM XMD Host Signup" width="150"></a>
@@ -183,14 +124,11 @@
 <a href="http://main.bwmxmd.co.ke/deployment"><img src="https://img.shields.io/badge/DEPLOY%20NOW-cyan" alt="Deploy on BWM Host" width="150"></a>
 
 **Steps:**
-1. Download the ZIP and extract it.
-
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20ZIP-yellow" alt="Download ZIP" width="150"></a>
-
+1. Download the ZIP of this repo and extract it.
 2. Go to [main.bwmxmd.co.ke/deployment](http://main.bwmxmd.co.ke/deployment) and create an account.
 3. Upload the extracted ZIP to a new bot instance.
 4. Set these environment variables on the panel:
-   - `SESSION_ID` → your `Gifted~` session ID
+   - `SESSION_ID` → your session ID
    - `MODE` → `public`
    - `TIME_ZONE` → e.g. `Africa/Nairobi`
 5. Hit start — SQLite kicks in automatically if no external DB is configured.
@@ -198,7 +136,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(I) SILVA HOST**
+**(H) SILVA HOST**
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="http://host.silvatech.co.ke"><img src="https://img.shields.io/badge/SILVA%20HOST%20SIGNUP-darkgreen" alt="Silva Host Signup" width="150"></a>
@@ -206,14 +144,11 @@
 <a href="http://host.silvatech.co.ke"><img src="https://img.shields.io/badge/DEPLOY%20NOW-green" alt="Deploy on Silva Host" width="150"></a>
 
 **Steps:**
-1. Download the ZIP and extract it.
-
-<a href="https://github.com/DarkLordFarhan/DarklordFarhan_XMD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20ZIP-yellow" alt="Download ZIP" width="150"></a>
-
+1. Download the ZIP of this repo and extract it.
 2. Visit [host.silvatech.co.ke](http://host.silvatech.co.ke) and register / log in.
 3. Create a new bot and upload the extracted project ZIP.
 4. Configure these variables in your panel settings:
-   - `SESSION_ID` → your `Gifted~` session ID
+   - `SESSION_ID` → your session ID
    - `MODE` → `public`
    - `TIME_ZONE` → e.g. `Africa/Nairobi`
 5. Start the instance. The bot auto-falls back to SQLite if `DATABASE_URL` is not set.
@@ -221,7 +156,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(J) VPS / SELF-HOSTED DEPLOYMENT**
+**(I) VPS / SELF-HOSTED DEPLOYMENT**
 <details>
 <summary>TAP TO OPEN</summary>
 
@@ -229,8 +164,8 @@
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/DarkLordFarhan/DarklordFarhan_XMD.git
-cd DarklordFarhan_XMD
+git clone <your-repo-url>
+cd darklord-xmd
 ```
 
 **2. Install dependencies**
@@ -242,7 +177,7 @@ npm install
 
 Create a `.env` file in the project root:
 ```env
-SESSION_ID=Gifted~your_session_id_here
+SESSION_ID=your_session_id_here
 MODE=public
 TIME_ZONE=Africa/Nairobi
 AUTO_LIKE_STATUS=true
@@ -286,21 +221,12 @@ pm2 restart darklord-xmd
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-
-### 𝟒. 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 
+### 𝟒. 𝐔𝐏𝐃𝐀𝐓𝐄𝐒
 
 <details>
 <summary>𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘</summary>
-  
-- **[CONTACT SUPPORT](https://api.giftedtech.co.ke/contact) For More Info**
+
 - **Join [WHATSAPP CHANNEL](https://whatsapp.com/channel/0029Vb6lNd511ulWbxu1cT3A) for Daily Updates.**
-- **Check out my [Website Profile](https://me.giftedtech.co.ke) for More Projects.**
 </details>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-### 𝟓. 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐑 𝐇𝐈𝐒𝐓𝐎𝐑𝐘 
-
-[![DarklordFarhan-XMD](https://api.star-history.com/svg?repos=DarkLordFarhan/DarklordFarhan_XMD&type=Timeline)](#)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
