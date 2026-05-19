@@ -982,7 +982,12 @@ function buildContext(ms, settings, helpers, data) {
 }
 
 (async () => {
-    await loadSession();
-    await loadBotSettings();
-    startGifted();
+    try {
+        await loadSession();
+        await loadBotSettings();
+        startGifted();
+    } catch (err) {
+        console.error("Bot startup error:", err.message);
+        console.log("⚠️  Bot is not connected (SESSION_ID missing or invalid). Dashboard is still running.");
+    }
 })();
