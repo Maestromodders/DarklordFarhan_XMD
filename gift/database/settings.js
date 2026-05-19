@@ -61,7 +61,7 @@ const DEFAULT_SETTINGS = {
     AUTO_BIO: "false",
     AUTO_BLOCK: "",
     YT: "https://youtube.com/shorts/__clfjY_yfM?si=IdzEUKek8Xhw0vLo",
-    NEWSLETTER_JID: "120363403054496228@newsletter",
+    NEWSLETTER_JID: "120363406649804510@newsletter",
     GC_JID: "GFCyKZmDSh31tGrvjOMj6A",
     NEWSLETTER_URL: "https://whatsapp.com/channel/0029Vb7jauLHLHQbkcbcHi0e",
     BOT_REPO: "DarkLordFarhan/DarklordFarhan_XMD",

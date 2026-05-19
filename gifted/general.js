@@ -387,35 +387,38 @@ gmd(
       }
 
       let header =
-`*━━━━━━━━━━━━━━━━━━━━━━*
-*🤖 ${botName}*
-*━━━━━━━━━━━━━━━━━━━━━━*
-👤 *User* › ${pushName}
-⚡ *Mode* › ${botMode}   🔑 *Prefix* › ${botPrefix}
-📦 *Commands* › ${totalCommands}   🔖 *v${botVersion}*
-⏱️ *Uptime* › ${uptime}
-🕐 *Time* › ${time}   📅 ${date}
-🌍 *Zone* › ${timeZone}
-🖥️ *RAM* › ${ram}
-*━━━━━━━━━━━━━━━━━━━━━━*\n\n`;
+`╔══════════════════════╗
+║   𝐃𝐀𝐑𝐊 𝐋𝐎𝐀𝐃 𝐗𝐌𝐃   ║
+╚══════════════════════╝
+👤 *Sᴜᴍᴍᴏɴᴇᴅ Bʏ:* ${monospace(pushName)}
+⚡ *Mᴏᴅᴇ:* ${monospace(botMode)}
+🔑 *Pʀᴇꜰɪx:* [ ${monospace(botPrefix)} ]
+📦 *Cᴏᴍᴍᴀɴᴅꜱ:* ${monospace(totalCommands.toString())}
+🔖 *Vᴇʀꜱɪᴏɴ:* ${monospace(botVersion)}
+⏱️ *Uᴘᴛɪᴍᴇ:* ${monospace(uptime)}
+🕐 *Tɪᴍᴇ:* ${monospace(time)}
+📅 *Dᴀᴛᴇ:* ${monospace(date)}
+🌍 *Tɪᴍᴇᴢᴏɴᴇ:* ${monospace(timeZone)}
+🖥️ *Rᴀᴍ:* ${monospace(ram)}
+${readmore}\n`;
 
       const formatCategory = (category, cmds) => {
-        const icon = catEmoji[category.toLowerCase()] || "📌";
-        const title = `*[ ${icon} ${category.toUpperCase()} ]*\n`;
+        const title = `╔══〔 *${monospace(category.toUpperCase())}* 〕══╗\n`;
         const body = cmds
           .map((cmd) => {
             const prefix = cmd.isBody ? "" : botPrefix;
-            return `▸ ${monospace(prefix + cmd.pattern)}`;
+            return `  💠 ${monospace(prefix + cmd.pattern)}`;
           })
-          .join("  ");
-        return `${title}${body}\n`;
+          .join("\n");
+        const foot = `\n╚══════════════════════╝\n`;
+        return `${title}${body}${foot}\n`;
       };
 
       let menu = header;
       for (const category of sortedCategories) {
         menu += formatCategory(category, categorized[category]) + "\n";
       }
-      menu += `*━━━━━━━━━━━━━━━━━━━━━━*\n> *${botFooter}*`;
+      menu += `\n> *${botFooter}*`;
 
       await Gifted.sendMessage(from, {
         text: menu,
