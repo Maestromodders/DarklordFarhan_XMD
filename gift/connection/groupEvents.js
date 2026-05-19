@@ -165,7 +165,7 @@ const setupGroupEventsListeners = (Gifted) => {
 
             const timeZone =
                 (await getSetting("TIME_ZONE")) || "Africa/Nairobi";
-            const botName = (await getSetting("BOT_NAME")) || "ATASSA MD";
+            const botName = (await getSetting("BOT_NAME")) || "𓅓 𝐃𝐀𝐑𝐊 𝐋𝐎𝐑𝐃𓅣._XMD";
             const botFooter =
                 (await getSetting("FOOTER")) || "Powered by Gifted Tech";
             const newsletterJid = (await getSetting("NEWSLETTER_JID")) || "";

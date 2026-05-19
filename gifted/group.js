@@ -845,7 +845,7 @@ gmd(
     if (!q || !q.trim()) {
       await react("❌");
       return reply(
-        "❌ Please provide a group name.\nExample: .newgroup ATASSA MD",
+        "❌ Please provide a group name.\nExample: .newgroup DARK LORD XMD",
       );
     }
 
